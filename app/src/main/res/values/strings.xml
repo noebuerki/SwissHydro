@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SwissHydro</string>
+    <string name="fav_tab_title">FAVORITES</string>
+    <string name="all_tab_title">ALL</string>
+
+    <string name="temperature">Temperature</string>
+    <string name="depth">Depth</string>
+    <string name="height">Height</string>
+    <string name="flow">Flow</string>
+
+    <string name="water_type_lake">Lake</string>
+    <string name="water_type_river">River</string>
+
+    <string name="search_hint">Search e.g. Aare or Bern</string>
+    <string name="no_fav">Nothing to display here</string>
+    <string name="no_data">Our servers are currently not available, please try again later</string>
+    <string name="no_server">Our Servers are currently experiencing some technical difficulties</string>
+    <string name="server_error">Server Error</string>
+
+    <string name="not_available">N/A</string>
+    <string name="liters_per_second" translatable="false">l/s</string>
+    <string name="above_sea_level">mamsl</string>
+    <string name="distance_unit" translatable="false">m</string>
+    <string name="temperature_unit" translatable="false">°C</string>
+    <string name="cubic_meters_per_second" translatable="false">m³/s</string>
+    <string name="search">search</string>
+</resources>
