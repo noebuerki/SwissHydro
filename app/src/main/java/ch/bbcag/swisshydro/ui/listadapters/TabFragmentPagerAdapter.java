@@ -11,8 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.example.swisshydro.R;
-
+import ch.bbcag.swisshydro.R;
 import ch.bbcag.swisshydro.ui.fragments.AllFragment;
 import ch.bbcag.swisshydro.ui.fragments.FavoritesFragment;
 

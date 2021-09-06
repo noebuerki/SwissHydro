@@ -137,7 +137,7 @@
         app:layout_constraintEnd_toStartOf="@+id/details_depth"
         app:layout_constraintTop_toTopOf="@+id/details_depth"
         app:srcCompat="@drawable/ic_height_black_36dp"
-        app:tint="?attr/colorOnPrimary"/>
+        app:tint="?attr/colorOnPrimary" />
 
     <ImageView
         android:id="@+id/details_height_icon"
@@ -148,7 +148,7 @@
         app:layout_constraintEnd_toStartOf="@+id/details_height"
         app:layout_constraintTop_toTopOf="@+id/details_height"
         app:srcCompat="@drawable/ic_height_black_36dp"
-        app:tint="?attr/colorOnPrimary"/>
+        app:tint="?attr/colorOnPrimary" />
 
     <ImageView
         android:id="@+id/details_flow_ls_icon"
@@ -159,7 +159,7 @@
         app:layout_constraintEnd_toStartOf="@+id/details_flow_ls"
         app:layout_constraintTop_toTopOf="@+id/details_flow_ls"
         app:srcCompat="@drawable/ic_water_black_36dp"
-        app:tint="?attr/colorOnPrimary"/>
+        app:tint="?attr/colorOnPrimary" />
 
     <ImageView
         android:id="@+id/details_flow_ms_icon"
@@ -170,7 +170,7 @@
         app:layout_constraintEnd_toStartOf="@+id/details_flow_ms"
         app:layout_constraintTop_toTopOf="@+id/details_flow_ms"
         app:srcCompat="@drawable/ic_water_black_36dp"
-        app:tint="?attr/colorOnPrimary"/>
+        app:tint="?attr/colorOnPrimary" />
 
     <TextView
         android:id="@+id/details_temp_data"

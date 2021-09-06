@@ -10,8 +10,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.swisshydro.R;
-
+import ch.bbcag.swisshydro.R;
 import ch.bbcag.swisshydro.ui.listadapters.FavoriteLocationAdapter;
 import ch.bbcag.swisshydro.ui.models.FavoriteLocationModel;
 

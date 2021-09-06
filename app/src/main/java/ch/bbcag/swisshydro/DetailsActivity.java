@@ -10,8 +10,6 @@ import android.widget.TextView;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.swisshydro.R;
-
 import ch.bbcag.swisshydro.repository.api.NetworkUtils;
 import ch.bbcag.swisshydro.repository.database.objects.Location;
 import ch.bbcag.swisshydro.repository.database.objects.Measurement;

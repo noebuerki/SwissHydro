@@ -1,6 +1,5 @@
 package ch.bbcag.swisshydro.ui.fragments;
 
-import android.media.Image;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.LayoutInflater;
@@ -9,7 +8,6 @@ import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.TextView;
 
@@ -20,10 +18,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.swisshydro.R;
-
-import java.util.List;
-
+import ch.bbcag.swisshydro.R;
 import ch.bbcag.swisshydro.repository.api.NetworkUtils;
 import ch.bbcag.swisshydro.ui.listadapters.AllLocationAdapter;
 import ch.bbcag.swisshydro.ui.models.AllLocationModel;

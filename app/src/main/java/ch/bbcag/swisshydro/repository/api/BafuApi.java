@@ -8,7 +8,6 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.swisshydro.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -18,6 +17,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import ch.bbcag.swisshydro.R;
 import ch.bbcag.swisshydro.repository.database.objects.Location;
 import ch.bbcag.swisshydro.repository.database.objects.Measurement;
 import ch.bbcag.swisshydro.repository.enums.WaterBodyType;

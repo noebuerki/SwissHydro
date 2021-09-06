@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="@+id/details_flow_ms"
         app:srcCompat="@drawable/ic_water_black_36dp"
-        app:tint="?attr/colorOnPrimary"/>
+        app:tint="?attr/colorOnPrimary" />
 
     <TextView
         android:id="@+id/details_flow_ms_data"
@@ -61,7 +61,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="@+id/details_flow_ls"
         app:srcCompat="@drawable/ic_water_black_36dp"
-        app:tint="?attr/colorOnPrimary"/>
+        app:tint="?attr/colorOnPrimary" />
 
     <TextView
         android:id="@+id/details_flow_ls_data"
@@ -96,7 +96,7 @@
         app:layout_constraintStart_toEndOf="@+id/details_header"
         app:layout_constraintTop_toTopOf="@+id/details_height"
         app:srcCompat="@drawable/ic_height_black_36dp"
-        app:tint="?attr/colorOnPrimary"/>
+        app:tint="?attr/colorOnPrimary" />
 
     <TextView
         android:id="@+id/details_height_data"
@@ -131,7 +131,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="@+id/details_depth"
         app:srcCompat="@drawable/ic_height_black_36dp"
-        app:tint="?attr/colorOnPrimary"/>
+        app:tint="?attr/colorOnPrimary" />
 
     <TextView
         android:id="@+id/details_depth_data"
@@ -166,7 +166,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="@+id/details_temp"
         app:srcCompat="@drawable/ic_thermostat_black_36dp"
-        app:tint="?attr/colorOnPrimary"/>
+        app:tint="?attr/colorOnPrimary" />
 
     <TextView
         android:id="@+id/details_temp_data"

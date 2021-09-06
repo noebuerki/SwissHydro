@@ -12,7 +12,7 @@ public class MeasurementConverterTest {
 
     @ParameterizedTest
     @CsvSource(value = {"1, 50, 13, 445", "2, 75, 15, 455", "3, 100, 17, 556"}, delimiter = ',')
-    public void fromMeasurementToJson(Integer locationId, Double flow, Double temperature, Double height){
+    public void fromMeasurementToJson(Integer locationId, Double flow, Double temperature, Double height) {
         Measurement measurement = new Measurement(locationId.toString());
         measurement.setProperty("flow", flow);
         measurement.setProperty("temperature", temperature);
@@ -23,7 +23,7 @@ public class MeasurementConverterTest {
 
     @ParameterizedTest
     @CsvSource(value = {"1, 50, 13, 445", "2, 75, 15, 455", "3, 100, 17, 556"}, delimiter = ',')
-    public void fromJsonToMeasurement(String locationId, Double flow, Double temperature, Double height){
+    public void fromJsonToMeasurement(String locationId, Double flow, Double temperature, Double height) {
         Measurement measurement = MeasurementConverter.fromJsonToMeasurement("{\"locationId\":\"" + locationId + "\",\"flow_ms\":" + flow + ",\"height\":" + height + ",\"temperature\":" + temperature + "}");
 
         assertEquals(locationId, measurement.getLocationId());

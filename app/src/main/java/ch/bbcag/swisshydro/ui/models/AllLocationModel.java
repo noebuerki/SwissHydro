@@ -7,10 +7,9 @@ import android.widget.ImageView;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.example.swisshydro.R;
-
 import java.util.List;
 
+import ch.bbcag.swisshydro.R;
 import ch.bbcag.swisshydro.repository.LocationRepo;
 import ch.bbcag.swisshydro.repository.database.objects.Location;
 

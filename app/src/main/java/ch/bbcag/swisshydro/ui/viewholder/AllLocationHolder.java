@@ -10,9 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.swisshydro.R;
-
 import ch.bbcag.swisshydro.DetailsActivity;
+import ch.bbcag.swisshydro.R;
 import ch.bbcag.swisshydro.repository.database.objects.Location;
 import ch.bbcag.swisshydro.repository.database.objects.Measurement;
 
