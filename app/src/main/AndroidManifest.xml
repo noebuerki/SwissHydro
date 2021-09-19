@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ch.bbcag.swisshydro">
+    package="ch.noebuerki.swisshydro">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,8 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SwissHydro">
-        <activity android:name="ch.bbcag.swisshydro.DetailsActivity" />
-        <activity android:name="ch.bbcag.swisshydro.MainActivity">
+        <activity android:name="ch.noebuerki.swisshydro.DetailsActivity" />
+        <activity android:name="ch.noebuerki.swisshydro.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

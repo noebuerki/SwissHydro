@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "638634001234",
+    "project_id": "swisshydro-2047a",
+    "storage_bucket": "swisshydro-2047a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638634001234:android:0258d0784ad6313632b08b",
+        "android_client_info": {
+          "package_name": "ch.noebuerki.swisshydro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638634001234-fu0pbgb36gc3n9dfoh0qg2uen94bdu37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG1XEPW_2oHqC9EleSd5eDedHypWn-iDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638634001234-fu0pbgb36gc3n9dfoh0qg2uen94bdu37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
